@@ -9,16 +9,22 @@
         .nav{
             position: absolute;
             width: 100%;
-            height: 50px;
+            height: 50px; 
+        } 
+         .ab{
             display: flex;
-            border: solid 2px;
-            justify-content:start;
+            justify-content: start;
             gap: 20px;
-            overflow: scroll;
-            scrollbar-width: none;
+            margin-top: 5px;
+         }
+         .cd{
+            display: flex;
+            display:inline-flex;
+            justify-content:end;
+            margin-top: 5px;
+            gap: 20px;
 
-            
-        }
+         }
         .y{
             padding-top: 10px;
            
@@ -42,18 +48,19 @@
             width: 80px;
             height: 35px;
             position: absolute;
-            left:1220px;
-            margin-top: 5px;
+            right: 55px;
             padding: 3px;
             margin-right: 20px;
             border: solid 2px;
             border-radius: 15px;
             background-color: aquamarine;
+            z-index: 1;
         }
         .d4{
-            height: 30px;
-            margin-top: 5px;
-            padding-top: 10px;
+            height: 35px;
+            position: absolute;
+            right: 5px;
+            padding: 3px;
             border: solid 2px;
             border-radius: 15px;
             background-color: aliceblue;
@@ -98,8 +105,8 @@
             width: 100%;
             border: solid 2px;
             display: flex;
-            justify-content:start;
-            overflow: scroll;
+            justify-content:space-evenly;
+            overflow-x: scroll;
             scrollbar-width: none;
             top: 60px;
             gap: 30px;
@@ -124,18 +131,21 @@
 </head>
 <body>
      <div class="nav">  
+        <div class="ab">
         <div class="c"><img src="https://logospng.org/download/w3schools/w3schools-4096.png" width="40px"></div>
         <div class="y">Tutorials</div>
         <div class="y"> Exercises</div>
         <div class="y"> Certificates</div>
         <div class="y">Services</div>
         <div class="c1"><input type="text" placeholder="search..." style="border-radius: 10px; height: 30px;"></div>
-        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <div class="cd">
+        &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
         <div class="d"><div class="x"><i class="fa-regular fa-star"></i></div>plus</div>
         <div class="d1">Spaces</div>
         <div class="d2"> <div class="z"><i class="fa-solid fa-cart-shopping"></i></div>Get Certified</div>
         <div class="d3">&emsp;Submit</div>
-        <div class="d4">&emsp;&emsp;&emsp13;&emsp;&emsp;&emsp;&emsp;Login in</div>
+        <div class="d4">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Login in</div>
+        </div>
     </div> 
     <div class="nav1">
         <div class="a">HTML</div>
